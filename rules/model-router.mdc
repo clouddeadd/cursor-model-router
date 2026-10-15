@@ -1,0 +1,14 @@
+---
+description: Agent picks a named model and runs the work on it
+alwaysApply: true
+---
+
+# Agent picks the model
+
+On every new user request:
+
+1. Call MCP `pick_model` with the user task text.
+2. Run the work with the Cursor `Task` tool, passing `model` = the returned `SLUG`.
+3. First line of the user-facing reply: `MODEL: <display name>`.
+
+Do not ask the user to change the Cursor model picker. Do not print Auto or default as the model name.

@@ -1,0 +1,11 @@
+{
+  "name": "cursor-model-router",
+  "version": "1.0.0",
+  "description": "Picks a named Cursor model for the task, then the agent runs the work on that model.",
+  "author": {
+    "name": "clouddeadd"
+  },
+  "license": "MIT",
+  "keywords": ["model", "router", "cursor"],
+  "rules": "./rules"
+}
