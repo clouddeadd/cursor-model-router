@@ -34,7 +34,7 @@ Rule: <https://cursor.com/link/rule?name=model-router&text=%23+Agent+picks+the+m
 
 ## Forum post
 
-I use a Cursor plugin that picks a named model for each task and shows that name at the top of the reply. The agent then runs the work on that model. It does not leave the choice on Auto, and it does not ask me to change the model menu.
+I created a Cursor plugin that picks a named model for each task and shows that name at the top of the reply. The agent then runs the work on that model. It does not leave the choice on Auto, and it does not ask me to change the model menu.
 
 The choice is a fixed list. Security, privacy, and production tasks go to Claude Opus 5 Thinking High. Long reviews go to Claude Fable 5.1 Thinking High. Refactors go to GPT-5.3 Codex. Tiny edits go to Composer 2.5 Fast. Everything else goes to Grok 4.7 High Fast.
 
